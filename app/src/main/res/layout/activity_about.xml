@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btnabout"
+        android:layout_width="64dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/btnseru"
+        android:scrollbarAlwaysDrawVerticalTrack="false" />
+
+    <ImageButton
+        android:id="@+id/btnback"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/btnback" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="105dp"
+        android:background="#000A0A0A"
+        android:foreground="@drawable/icnbmi" />
+
+    <TextView
+        android:id="@+id/about1"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginBottom="50dp"
+        android:background="#0090EE90"
+        android:scrollbars="vertical"
+        android:text=""
+        android:textAlignment="inherit"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-condensed-light" />
+
+</RelativeLayout>

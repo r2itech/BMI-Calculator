@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splash_screen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:background="@drawable/bgload" />
+
+    <TextView
+        android:id="@+id/tvSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginBottom="230dp"
+        android:background="#000A0A0A"
+        android:text="BMI"
+        android:textColor="#B7575757"
+        android:textSize="98sp"
+        android:textStyle="bold"
+        app:fontFamily="monospace"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="98dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginBottom="100dp"
+        android:background="#000A0A0A"
+        android:text="CALCULATOR"
+        android:textAlignment="center"
+        android:textColor="#B7575757"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:fontFamily="monospace" />
+
+    <ProgressBar
+        android:id="@+id/progresBar1"
+        android:layout_width="252dp"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginBottom="460dp" />
+
+</RelativeLayout>

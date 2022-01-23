@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    android:background="@drawable/bgmain"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btnhitung"
+        android:layout_centerHorizontal="true"
+        android:layout_width="212dp"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="175dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/btnhitung" />
+
+    <ImageButton
+        android:id="@+id/btnabout"
+        android:layout_width="189dp"
+        android:layout_height="103dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/btnabout" />
+
+
+    <ImageButton
+        android:id="@+id/btnexit"
+        android:layout_width="wrap_content"
+        android:layout_height="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="411dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/btnkeluar" />
+
+</RelativeLayout>

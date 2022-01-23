@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <ImageButton
+        android:id="@+id/btnback"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/btnback" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#90EE90"
+        android:lineSpacingExtra="98sp"
+        android:scrollHorizontally="false"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:text="BMI CALCULATOR"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="#90EE90"
+        android:textSize="18sp"
+        android:text="Masukan Tinggi Anda:"/>
+
+    <EditText
+        android:id="@+id/tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/btnkosong"
+        android:inputType="number"
+        android:maxLength="5"
+        android:hint="( cm )"
+        android:lineSpacingExtra="98sp"
+        android:scrollHorizontally="false"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#90EE90"
+        android:textSize="18sp"
+        android:text="Masukan Berat Badan Anda:"/>
+
+    <EditText
+        android:id="@+id/berat"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/btnkosong"
+        android:inputType="number"
+        android:maxLength="5"
+        android:hint="( kg )"
+        android:lineSpacingExtra="98sp"
+        android:scrollHorizontally="false"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/btnhitung"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/btnhitung" />
+
+</LinearLayout>
